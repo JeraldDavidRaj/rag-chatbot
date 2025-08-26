@@ -15,7 +15,7 @@ class RAGPipeline:
     def __init__(self,
                  documents_csv: str | Path = DATA_DIR / "documents.csv",
                  retriever_model: str = "sentence-transformers/all-MiniLM-L6-v2",
-                 reranker_model: str = "cross-encoder/ms-marco-MiniLM-L-6-v2",
+                 reranker_model: str = "cross-encoder/msmarco-MiniLM-L-6-v2",
                  generator_model: str = "google/flan-t5-base"):
 
         self.docs = load_documents(documents_csv)
