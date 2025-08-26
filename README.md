@@ -9,6 +9,8 @@ The chatbot uses sentence embeddings, retriever, reranker, and generator modules
 
 📁 Project Structure
 
+```
+
 rag-chatbot/
 ├── data/
 │   ├── embeddings/                  # Precomputed embeddings (not included in repo)
@@ -38,6 +40,7 @@ rag-chatbot/
 ├── LICENSE                           # License file
 └── requirements.txt                  # Python dependencies
 
+```
 
 📦 Requirements
 
